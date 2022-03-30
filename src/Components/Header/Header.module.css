@@ -1,0 +1,15 @@
+.header{
+    background-color: #ffffff;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    /* margin: 0px 18px; */
+}
+
+.header img {
+	margin: 0px 6px 0px 12px;
+	height: 32px;
+}

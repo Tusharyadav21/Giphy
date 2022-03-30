@@ -1,0 +1,96 @@
+.container {
+	width: 480px;
+}
+
+.container > form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	border-radius: 10px;
+	margin: 10px 0px 0px 0px;
+	padding: 6px 16px;
+}
+
+.MessageColumn {
+	display: flex;
+	height: 80px;
+	width: 100%;
+	align-items: center;
+	/* background-color: tomato; */
+}
+.MessageColumn > img {
+	height: 45px;
+}
+.MessageColumn > input {
+	margin-left: 10px;
+	width: 85%;
+	height: 32px;
+	border: none;
+	outline: none;
+}
+.MessageColumn > input::placeholder {
+	padding-left: 8px;
+}
+.Buttons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+.Buttons > div,
+.Buttons > button {
+	width: 200px;
+	cursor: pointer;
+	background-color: #d8d8d8;
+	border-radius: 8px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Buttons > button {
+	border: none;
+	margin-left: 50px;
+}
+
+.post_container {
+	width: 480px;
+}
+.post {
+	margin: 4px 0px;
+	width: 480px;
+	background-color: rgb(255, 255, 255);
+}
+
+.GifBody {
+	max-height: 400px;
+	overflow-y: scroll;
+	border: 1px solid rgb(255, 255, 255);
+	margin: 2px 0px;
+}
+.gifSelector {
+	
+	background-color: rgb(255, 255, 255);
+}
+/* form {
+	display: flex;
+	background-color: tomato;
+}
+
+form button {
+	height: 36px;
+	border: none;
+	padding: 8px;
+	margin: 4px;
+	border-radius: 12px;
+	background-color: #fff;
+	font-size: 1rem;
+}
+
+input {
+	border-radius: 5px;
+	border-style: none;
+	margin: 8px;
+} */
